@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "80401209717",
+    "project_id": "guia-gamer",
+    "storage_bucket": "guia-gamer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80401209717:android:228b472acc838fc6005b3c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80401209717-tbnd8a4as1sfq1qi48obmjqb58607mip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnePn2Bb8W1BQMT0VaAfUAKuDBSyatXBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80401209717-tbnd8a4as1sfq1qi48obmjqb58607mip.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80401209717-bh2cb0smqi2k7h9aal0dlkjiluf04bsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
