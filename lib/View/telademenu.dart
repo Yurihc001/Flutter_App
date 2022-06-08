@@ -196,7 +196,7 @@ class telaDeMenuState extends State<telaDeMenu> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.discord_rounded),
+                leading: Icon(Icons.list),
                 title: Text("Jogos Zerados"),
                 subtitle: Text("Entre para saber seus jogos zerados..."),
                 onTap: () {
