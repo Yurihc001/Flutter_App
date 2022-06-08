@@ -22,7 +22,7 @@ Future<void> main() async {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Guia Gamer',
-    initialRoute: 't1',
+    initialRoute: 't3',
     routes: {
       't1': (context) => const TelaPrincipal(),
       't2': (context) => const TelaDetalhes(),

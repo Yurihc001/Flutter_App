@@ -14,7 +14,7 @@ class telaDeMenuState extends State<telaDeMenu> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primaryColor: Colors.indigo),
+      theme: ThemeData(primaryColor: Colors.blue),
       home: Scaffold(
         appBar: AppBar(
           title: Text("Menu"),
@@ -24,53 +24,8 @@ class telaDeMenuState extends State<telaDeMenu> {
           child: ListView(
             scrollDirection: Axis.vertical,
             children: <Widget>[
-              SizedBox(
-                height: 300,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    Container(
-                      width: 170,
-                      height: 100,
-                      margin: EdgeInsets.all(10),
-                      child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
-                      color: Colors.black,
-                    ),
-                    Container(
-                      width: 170,
-                      height: 100,
-                      margin: EdgeInsets.all(10),
-                      child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
-                      color: Colors.black,
-                    ),
-                    Container(
-                      width: 170,
-                      height: 100,
-                      margin: EdgeInsets.all(10),
-                      child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
-                      color: Colors.black,
-                    ),
-                    Container(
-                      width: 170,
-                      height: 100,
-                      margin: EdgeInsets.all(10),
-                      child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
-                      color: Colors.black,
-                    ),
-                    Container(
-                      width: 170,
-                      height: 100,
-                      margin: EdgeInsets.all(10),
-                      child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
-                      color: Colors.black,
-                    ),
-                  ],
-                ),
+              Container(
+                child: const Text("Mais acessados"),
               ),
               SizedBox(
                 height: 300,
@@ -82,7 +37,7 @@ class telaDeMenuState extends State<telaDeMenu> {
                       height: 100,
                       margin: EdgeInsets.all(10),
                       child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
+                          "https://i.imgur.com/NuLQZnh.jpg"),
                       color: Colors.black,
                     ),
                     Container(
@@ -90,7 +45,7 @@ class telaDeMenuState extends State<telaDeMenu> {
                       height: 100,
                       margin: EdgeInsets.all(10),
                       child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
+                          "https://upload.wikimedia.org/wikipedia/pt/9/98/Destiny_2_capa.jpg"),
                       color: Colors.black,
                     ),
                     Container(
@@ -98,7 +53,7 @@ class telaDeMenuState extends State<telaDeMenu> {
                       height: 100,
                       margin: EdgeInsets.all(10),
                       child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
+                          "https://upload.wikimedia.org/wikipedia/pt/2/22/Dark_Souls_2_capa.png"),
                       color: Colors.black,
                     ),
                     Container(
@@ -106,7 +61,7 @@ class telaDeMenuState extends State<telaDeMenu> {
                       height: 100,
                       margin: EdgeInsets.all(10),
                       child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
+                          "https://upload.wikimedia.org/wikipedia/pt/7/7e/God_of_War_2_capa.png"),
                       color: Colors.black,
                     ),
                     Container(
@@ -114,7 +69,74 @@ class telaDeMenuState extends State<telaDeMenu> {
                       height: 100,
                       margin: EdgeInsets.all(10),
                       child: Image.network(
-                          'https://img.elo7.com.br/product/zoom/3041510/big-poster-serie-stranger-things-netflix-lo001-90x60-cm-geek.jpg'),
+                          "https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqyrla3OmbDmoWVbCknTaviK6mR2iEwJQNg&usqp=CAU"),
+                      color: Colors.black,
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                child: const Text("Recomendados"),
+              ),
+              SizedBox(
+                height: 300,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://upload.wikimedia.org/wikipedia/pt/a/a5/God_of_War_Ragnar%C3%B6k_capa.jpg"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://cdn.ome.lt/legacy/images/galerias/GTAV/GTA-V-Capa-Brasil-Xbox360.jpg"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnz_RZ6pS1vH-T7tFsC83ME6RxdbXTNZ1eJQ&usqp=CAU"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://upload.wikimedia.org/wikipedia/pt/a/ac/Hot_Wheels_Unleashed_capa.jpg"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://s2.glbimg.com/3O5QIrqW9x0RSNSZQFht2LHjbu0=/0x0:405x504/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/L/I/BMzmPSRdSmMPlBm1B3kA/image006.jpg"),
+                      color: Colors.black,
+                    ),
+                    Container(
+                      width: 170,
+                      height: 100,
+                      margin: EdgeInsets.all(10),
+                      child: Image.network(
+                          "https://1.bp.blogspot.com/-LshHJf-Wfgg/U5ep1J9M07I/AAAAAAAAJv4/cxx1OnnQKMw/s1600/hyrule.jpg"),
                       color: Colors.black,
                     ),
                   ],
